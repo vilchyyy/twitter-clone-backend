@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"os"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -132,6 +133,7 @@ func likeComment(c *gin.Context) {
 }
 
 func main() {
+	port := os.Getenv("PORT")
 	router := gin.Default()
 	router.Use(cors.Default())
 	router.PUT("/tweets", postComments)
@@ -139,5 +141,5 @@ func main() {
 	router.PUT("/tweets/comments/like", likeComment)
 	router.GET("/tweets", getTweets)
 	router.POST("/tweets", postTweets)
-	router.Run(fmt.Sprintf(":%s", "127.0.0.1:8080"))
+	router.Run(fmt.Sprintf(":%s", port))
 }
