@@ -1,4 +1,4 @@
-module example/web-service-gin
+module twitter-clone-backend
 
 go 1.17
 
