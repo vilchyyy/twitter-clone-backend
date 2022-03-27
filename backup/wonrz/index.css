@@ -1,0 +1,50 @@
+html, body {
+    padding: 10;
+}
+
+body {
+    background-image: url("https://coub-anubis-a.akamaized.net/coub_storage/coub/simple/cw_image/05fb73399ab/685fd7b3380f0d67bdaab/med_1623651916_00026.jpg");
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.grid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/23513ab1-621b-4fe9-bf71-71186e2676d9/d9zi98a-37d3ef5e-a257-4bbb-b825-a8d61346fb6e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIzNTEzYWIxLTYyMWItNGZlOS1iZjcxLTcxMTg2ZTI2NzZkOVwvZDl6aTk4YS0zN2QzZWY1ZS1hMjU3LTRiYmItYjgyNS1hOGQ2MTM0NmZiNmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6Hu5loxOo9BqdLNs8ZoLefio-eSO2lSKNn7p2ZToqpk");
+    background-size: cover;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-image: url("https://toppng.com/uploads/preview/free-png-download-ios-10-crying-laughing-emoji-png-ios-10-crying-laughing-emoji-11562872808mrzfayepph.png");
+    background-size: cover;
+}
+
+.apple {
+    background-image: url("https://emojifaces.org/assets/img/google/ok-emoji-8.0-oreo-512-1f44c.png");
+    background-size: cover;
+}
+
+#start{
+    display: flex;
+    margin: auto;
+    margin-bottom: 5;
+}
